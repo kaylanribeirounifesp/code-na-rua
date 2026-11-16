@@ -58,6 +58,25 @@ export function TriangleAlertIcon(props: IconProps) {
   );
 }
 
+export function ShieldCheckIcon(props: IconProps) {
+  return (
+    <svg {...iconProps} {...props}>
+      <path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z" />
+      <path d="m9 12 2 2 4-4" />
+    </svg>
+  );
+}
+
+export function UsersIcon(props: IconProps) {
+  return (
+    <svg {...iconProps} {...props}>
+      <path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+      <circle cx="10" cy="7" r="4" />
+      <path d="M20 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+    </svg>
+  );
+}
+
 export function UserIcon(props: IconProps) {
   return (
     <svg {...iconProps} {...props}>
@@ -146,6 +165,25 @@ export function MapPinIcon(props: IconProps) {
     <svg {...iconProps} {...props}>
       <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
       <circle cx="12" cy="10" r="3" />
+    </svg>
+  );
+}
+
+export function ShareIcon(props: IconProps) {
+  return (
+    <svg {...iconProps} {...props}>
+      <circle cx="18" cy="5" r="3" />
+      <circle cx="6" cy="12" r="3" />
+      <circle cx="18" cy="19" r="3" />
+      <path d="m8.7 10.7 6.6-3.4M8.7 13.3l6.6 3.4" />
+    </svg>
+  );
+}
+
+export function ChevronRightIcon(props: IconProps) {
+  return (
+    <svg {...iconProps} {...props}>
+      <path d="m9 18 6-6-6-6" />
     </svg>
   );
 }
